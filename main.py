@@ -5,7 +5,7 @@ from PIL import Image, ImageTk
 import os
 import glob
 import random
-from labeldb import LabelDB
+from database.labeldb import LabelDB
 
 # colors for the bboxes
 COLORS = ['red', 'blue', 'yellow', 'pink', 'cyan', 'green', 'black']
