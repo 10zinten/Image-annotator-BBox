@@ -84,4 +84,3 @@ if __name__ == "__main__":
     labeldb.insert('image-01', 1, 200, 300, 400, 500)
     labeldb.gen_csv()
     labeldb.close()
-
